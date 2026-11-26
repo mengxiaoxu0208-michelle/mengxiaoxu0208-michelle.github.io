@@ -64,15 +64,54 @@
             </article>
           </div>
           <article class="work-card work-secondary">
-            <button class="image-button feature-poster" type="button" data-dialog="guanbu-dialog" aria-label="View Guanbu A Week supervision case">
+            <button class="image-button feature-poster" type="button" data-dialog="guanbu-dialog" aria-label="Watch Guanbu A Week trailer and view supervision case">
               <img src="guanbu-poster.webp" alt="Original illustrated poster for the student feature Guanbu A Week" loading="lazy" width="1279" height="1810">
             </button>
             <h3>Guanbu A Week</h3>
             <p class="project-role">Student feature · Co-supervising producer</p>
             <p class="project-recognition">FIRST FRAME Special Mention · 2022</p>
-            <button class="text-link" type="button" data-dialog="guanbu-dialog">View supervision case</button>
+            <button class="text-link" type="button" data-dialog="guanbu-dialog">Watch trailer &amp; view case</button>
           </article>
         </div>
+        <section class="more-work shell" aria-labelledby="more-work-title">
+          <h3 id="more-work-title">More supervised work</h3>
+          <div class="more-work-grid">
+            <article class="work-card supervised-card">
+              <button class="image-button film-still" type="button" data-dialog="red-balloon-dialog" aria-label="Watch The Red Balloon trailer">
+                <img src="red-balloon-still.webp" alt="Film still from The Red Balloon" loading="lazy" width="1280" height="720">
+              </button>
+              <h4>The Red Balloon</h4>
+              <p class="project-role">Student graduation film<br>Co-adviser / Co-supervising producer</p>
+              <button class="text-link" type="button" data-dialog="red-balloon-dialog">Watch trailer</button>
+            </article>
+            <article class="work-card supervised-card">
+              <button class="image-button film-still" type="button" data-dialog="river-dialog" aria-label="Watch River Shows the Hidden Heart excerpt">
+                <img src="river-still.webp" alt="Film still from River Shows the Hidden Heart" loading="lazy" width="1280" height="720">
+              </button>
+              <h4>River Shows the Hidden Heart</h4>
+              <p class="project-role">Student graduation film<br>Co-supervising producer</p>
+              <button class="text-link" type="button" data-dialog="river-dialog">Watch excerpt</button>
+            </article>
+            <article class="work-card supervised-card">
+              <button class="image-button film-still" type="button" data-dialog="growing-sun-dialog" aria-label="Watch Growing Towards the Sun film">
+                <img src="growing-sun-still.webp" alt="Film still from Growing Towards the Sun" loading="lazy" width="1280" height="720">
+              </button>
+              <h4>Growing Towards the Sun</h4>
+              <p class="project-role">Student project · Project adviser</p>
+              <p class="project-recognition">National Final First Prize · 2023</p>
+              <button class="text-link" type="button" data-dialog="growing-sun-dialog">Watch film</button>
+            </article>
+            <article class="work-card supervised-card">
+              <button class="image-button film-still" type="button" data-dialog="extraordinary-dialog" aria-label="Watch Extraordinary film">
+                <img src="extraordinary-still.webp" alt="Film still from Extraordinary" loading="lazy" width="1280" height="720">
+              </button>
+              <h4>Extraordinary</h4>
+              <p class="project-role">Student advertising project · Project adviser</p>
+              <p class="project-recognition">National Final Third Prize · 2022</p>
+              <button class="text-link" type="button" data-dialog="extraordinary-dialog">Watch film</button>
+            </article>
+          </div>
+        </section>
       </section>
 
       <section class="teaching-section shell" id="teaching" aria-labelledby="teaching-title">
@@ -100,6 +139,7 @@
         <div class="research-introduction">
           <h2 id="research-title">Research &amp;<br>publications</h2>
           <p>Documentary, gender and cultural representation.</p>
+          <p class="research-context">Ethical representation connects my research, film practice and teaching.</p>
         </div>
         <div class="research-list">
           <article class="publication-row">
@@ -188,6 +228,11 @@
       <div class="modal-content">
         <h2 class="film-title" id="guanbu-title">Guanbu A Week</h2>
         <p class="modal-lead">Student feature · Co-supervising producer</p>
+        <video class="project-video" controls playsinline preload="none" poster="guanbu-poster.webp" aria-label="Guanbu A Week trailer">
+          <source src="guanbu-trailer.mp4" type="video/mp4">
+          Your browser does not support embedded video. <a href="guanbu-trailer.mp4">Open the Guanbu A Week trailer</a>.
+        </video>
+        <p class="video-caption">Trailer · 1 min 52 sec</p>
         <div class="supervision-grid">
           <img class="dialog-poster" src="guanbu-poster.webp" alt="Complete original poster for Guanbu A Week" loading="lazy" width="1279" height="1810">
           <div>
@@ -202,6 +247,94 @@
             </ul>
             <p class="recognition-note">FIRST FRAME Special Mention · 2022<br><span>Recognition of the student film and its team.</span></p>
           </div>
+        </div>
+      </div>
+    </dialog>
+
+    <dialog class="modal modal-wide" id="red-balloon-dialog" aria-labelledby="red-balloon-title">
+      <div class="modal-header">
+        <p class="section-label">Student production &amp; supervision</p>
+        <button class="close-button" type="button" data-close autofocus>Close <span aria-hidden="true">×</span></button>
+      </div>
+      <div class="modal-content">
+        <h2 class="film-title" id="red-balloon-title">The Red Balloon</h2>
+        <p class="modal-lead">Student graduation film · Co-adviser / Co-supervising producer</p>
+        <video class="project-video" controls playsinline preload="none" poster="red-balloon-still.webp" aria-label="The Red Balloon trailer">
+          <source src="red-balloon-trailer.mp4" type="video/mp4">
+          Your browser does not support embedded video. <a href="red-balloon-trailer.mp4">Open The Red Balloon trailer</a>.
+        </video>
+        <p class="video-caption">Trailer</p>
+        <div class="project-credit">
+          <h3>Supervision credit</h3>
+          <p>Mengxiao Xu — co-adviser and co-supervising producer of the student graduation film <em>The Red Balloon</em> (《小半》).</p>
+        </div>
+      </div>
+    </dialog>
+
+    <dialog class="modal modal-wide" id="river-dialog" aria-labelledby="river-title">
+      <div class="modal-header">
+        <p class="section-label">Student production &amp; supervision</p>
+        <button class="close-button" type="button" data-close autofocus>Close <span aria-hidden="true">×</span></button>
+      </div>
+      <div class="modal-content">
+        <h2 class="film-title" id="river-title">River Shows the Hidden Heart</h2>
+        <p class="modal-lead">Student graduation film · Co-supervising producer</p>
+        <video class="project-video" controls playsinline preload="none" poster="river-still.webp" aria-label="River Shows the Hidden Heart selected excerpt">
+          <source src="river-excerpt.mp4" type="video/mp4">
+          Your browser does not support embedded video. <a href="river-excerpt.mp4">Open the River Shows the Hidden Heart excerpt</a>.
+        </video>
+        <p class="video-caption">Selected excerpt · 90 sec</p>
+        <div class="project-credit">
+          <h3>Supervision credit</h3>
+          <p>Mengxiao Xu — co-supervising producer of the student graduation film <em>River Shows the Hidden Heart</em> (《绰绰水影》).</p>
+        </div>
+      </div>
+    </dialog>
+
+    <dialog class="modal modal-wide" id="growing-sun-dialog" aria-labelledby="growing-sun-title">
+      <div class="modal-header">
+        <p class="section-label">Student project &amp; supervision</p>
+        <button class="close-button" type="button" data-close autofocus>Close <span aria-hidden="true">×</span></button>
+      </div>
+      <div class="modal-content">
+        <h2 class="film-title" id="growing-sun-title">Growing Towards the Sun</h2>
+        <p class="modal-lead">Student project · Project adviser</p>
+        <video class="project-video" controls playsinline preload="none" poster="growing-sun-still.webp" aria-label="Growing Towards the Sun student film">
+          <source src="growing-sun.mp4" type="video/mp4">
+          Your browser does not support embedded video. <a href="growing-sun.mp4">Open the Growing Towards the Sun film</a>.
+        </video>
+        <p class="video-caption">Student film</p>
+        <div class="project-credit">
+          <h3>Supervision credit</h3>
+          <p>Mengxiao Xu — project adviser for <em>Growing Towards the Sun</em> (《向阳生长》).</p>
+        </div>
+        <div class="project-credit">
+          <h3>Recognition</h3>
+          <p>First Prize, National Final<br>Milan Design Week China Design Exhibition · 2023</p>
+        </div>
+      </div>
+    </dialog>
+
+    <dialog class="modal modal-wide" id="extraordinary-dialog" aria-labelledby="extraordinary-title">
+      <div class="modal-header">
+        <p class="section-label">Student project &amp; supervision</p>
+        <button class="close-button" type="button" data-close autofocus>Close <span aria-hidden="true">×</span></button>
+      </div>
+      <div class="modal-content">
+        <h2 class="film-title" id="extraordinary-title">Extraordinary</h2>
+        <p class="modal-lead">Student advertising project · Project adviser</p>
+        <video class="project-video" controls playsinline preload="none" poster="extraordinary-still.webp" aria-label="Extraordinary student advertising film">
+          <source src="extraordinary.mp4" type="video/mp4">
+          Your browser does not support embedded video. <a href="extraordinary.mp4">Open the Extraordinary film</a>.
+        </video>
+        <p class="video-caption">Student advertising film</p>
+        <div class="project-credit">
+          <h3>Supervision credit</h3>
+          <p>Mengxiao Xu — project adviser for <em>Extraordinary</em> (《非常人》).</p>
+        </div>
+        <div class="project-credit">
+          <h3>Recognition</h3>
+          <p>Third Prize, National Final<br>14th National Advertising Art Design Competition for College Students · 2022</p>
         </div>
       </div>
     </dialog>
