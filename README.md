@@ -18,7 +18,7 @@ Keep these public assets in the same directory as `index.html`:
 - `river-still.webp`
 - `growing-sun-still.webp`
 - `extraordinary-still.webp`
-- `teaching-directing.webp`
+- `teaching-supervision.webp`
 - `mentoring.webp`
 - `again-720p.mp4`
 - `guanbu-trailer.mp4`
