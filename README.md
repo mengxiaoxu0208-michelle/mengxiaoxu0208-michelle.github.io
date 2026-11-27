@@ -25,7 +25,7 @@ Keep these public assets in the same directory as `index.html`:
 - `the-clown-still.webp`
 - `huang-xiaoxian-still.webp`
 - `suan-still.webp`
-- `hotpot-sichuan-still.webp`
+- `hotpot-sichuan-overhead-still.webp`
 - `hotpot-northeast-still.webp`
 - `yunnan-hotpot-still.webp`
 - `teaching-supervision.webp`
@@ -55,6 +55,6 @@ The homepage features Pot of Fire — Clay Hot Pot in Sichuan and Guanbu A Week,
 
 Use the original approved images and public CV. Keep the full Guanbu A Week poster visible. Long personal productions use selected excerpts; Guanbu A Week and The Red Balloon show trailers; River Shows the Hidden Heart shows a 90-second excerpt. The Yunnan promotional cut is 15 seconds and uses a contained vertical player. Keep excerpt, trailer and complete-film labels distinct. The Clown is presented as a complete 1 min 57 sec animation study. Huang Xiaoxian and Suan Suan Suan are complete 7-second silent animation studies with working romanized titles. These three animations retain the internal `-excerpt.mp4` filenames, despite being complete works. SOS is the full 4 min 4 sec audio work. Zach Is Missing has no unverified role attribution. Pot of Fire links to the official WeTV series page; that link supports the series title rather than individual credits.
 
-Publication links point to DOI records. The doctorate is described as degree award pending, and creative roles remain distinct from student supervision. Both pages share `styles.css`, `script.js`, and native accessible dialogs. No automatic playback or new dependencies are used.
+Publication links point to DOI records. The Cultura article also has a direct official-publisher entry on the homepage and a Read article link in the bibliography, so readers have an alternative to the DOI resolver. Keep the DOI number unchanged as bibliographic metadata. The doctorate is described as degree award pending, and creative roles remain distinct from student supervision. Both pages share `styles.css`, `script.js`, and native accessible dialogs. No automatic playback or new dependencies are used.
 
 Serve this directory as a static site or publish its contents to the repository’s GitHub Pages source. No build command, package installation, API key or backend is required.
