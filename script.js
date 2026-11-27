@@ -16,9 +16,11 @@ dialogs.forEach((dialog) => {
   });
 
   dialog.addEventListener("close", () => {
-    dialog.querySelectorAll("video").forEach((video) => {
-      video.pause();
-      video.currentTime = 0;
+    dialog.querySelectorAll("video, audio").forEach((media) => {
+      media.pause();
+      media.currentTime = 0;
+      // Cancel the previous download and release its decoder before another work opens.
+      media.load();
     });
     if (!document.querySelector("dialog[open]")) {
       document.body.classList.remove("modal-open");

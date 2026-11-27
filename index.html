@@ -17,6 +17,7 @@
       <nav aria-label="Main navigation">
         <ul class="nav-list">
           <li><a href="#work">Work</a></li>
+          <li><a href="works.html">All work</a></li>
           <li><a href="#teaching">Teaching</a></li>
           <li><a href="#research">Research</a></li>
           <li><button class="nav-link" type="button" data-dialog="profile-dialog">About</button></li>
@@ -52,15 +53,15 @@
           <div class="work-primary">
             <div class="work-heading">
               <h2 id="work-title">Selected work</h2>
-              <p>Creative practice &amp; student supervision</p>
+              <p>Film, collaboration &amp; student supervision</p>
             </div>
             <article class="work-card">
-              <button class="image-button film-still" type="button" data-dialog="again-dialog" aria-label="View AGAIN project and film">
-                <img src="again-poster.webp" alt="Black-and-white still from AGAIN" loading="lazy" width="1280" height="720">
+              <button class="image-button film-still" type="button" data-dialog="hotpot-sichuan-dialog" aria-label="Watch excerpt: Pot of Fire — Clay Hot Pot in Sichuan">
+                <img src="hotpot-sichuan-still.webp" alt="Still from Pot of Fire — Clay Hot Pot in Sichuan" loading="lazy" width="1280" height="720">
               </button>
-              <h3>AGAIN</h3>
-              <p class="project-role">Creative practice · Co-creator</p>
-              <button class="text-link" type="button" data-dialog="again-dialog">View project</button>
+              <h3>Pot of Fire — Clay Hot Pot in Sichuan</h3>
+              <p class="project-role">Director’s assistant &amp; Editor</p>
+              <button class="text-link" type="button" data-dialog="hotpot-sichuan-dialog">Watch excerpt</button>
             </article>
           </div>
           <article class="work-card work-secondary">
@@ -74,8 +75,24 @@
           </article>
         </div>
         <section class="more-work shell" aria-labelledby="more-work-title">
-          <h3 id="more-work-title">More supervised work</h3>
+          <h3 id="more-work-title">More selected work</h3>
           <div class="more-work-grid">
+            <article class="work-card supervised-card">
+              <button class="image-button film-still" type="button" data-dialog="abuji-dialog" aria-label="Watch excerpt: ABUJI">
+                <img src="abuji-still.webp" alt="Still from ABUJI" loading="lazy" width="1280" height="720">
+              </button>
+              <h4>ABUJI</h4>
+              <p class="project-role">Director &amp; Co-editor</p>
+              <button class="text-link" type="button" data-dialog="abuji-dialog">Watch excerpt</button>
+            </article>
+            <article class="work-card supervised-card">
+              <button class="image-button film-still" type="button" data-dialog="escape-dialog" aria-label="Watch excerpt: Escape From Cockatoo Island">
+                <img src="escape-still.webp" alt="Still from Escape From Cockatoo Island" loading="lazy" width="1280" height="720">
+              </button>
+              <h4>Escape From Cockatoo Island</h4>
+              <p class="project-role">Producer</p>
+              <button class="text-link" type="button" data-dialog="escape-dialog">Watch excerpt</button>
+            </article>
             <article class="work-card supervised-card">
               <button class="image-button film-still" type="button" data-dialog="red-balloon-dialog" aria-label="Watch The Red Balloon trailer">
                 <img src="red-balloon-still.webp" alt="Film still from The Red Balloon" loading="lazy" width="1280" height="720">
@@ -92,25 +109,8 @@
               <p class="project-role">Student graduation film<br>Co-supervising producer</p>
               <button class="text-link" type="button" data-dialog="river-dialog">Watch excerpt</button>
             </article>
-            <article class="work-card supervised-card">
-              <button class="image-button film-still" type="button" data-dialog="growing-sun-dialog" aria-label="Watch Growing Towards the Sun film">
-                <img src="growing-sun-still.webp" alt="Film still from Growing Towards the Sun" loading="lazy" width="1280" height="720">
-              </button>
-              <h4>Growing Towards the Sun</h4>
-              <p class="project-role">Student project · Project adviser</p>
-              <p class="project-recognition">National Final First Prize · 2023</p>
-              <button class="text-link" type="button" data-dialog="growing-sun-dialog">Watch film</button>
-            </article>
-            <article class="work-card supervised-card">
-              <button class="image-button film-still" type="button" data-dialog="extraordinary-dialog" aria-label="Watch Extraordinary film">
-                <img src="extraordinary-still.webp" alt="Film still from Extraordinary" loading="lazy" width="1280" height="720">
-              </button>
-              <h4>Extraordinary</h4>
-              <p class="project-role">Student advertising project · Project adviser</p>
-              <p class="project-recognition">National Final Third Prize · 2022</p>
-              <button class="text-link" type="button" data-dialog="extraordinary-dialog">Watch film</button>
-            </article>
           </div>
+          <a class="text-link all-work-link" href="works.html">View all work</a>
         </section>
       </section>
 
@@ -196,27 +196,65 @@
       </div>
     </dialog>
 
-    <dialog class="modal modal-wide" id="again-dialog" aria-labelledby="again-title">
+    <dialog class="modal modal-wide" id="abuji-dialog" aria-labelledby="abuji-title">
       <div class="modal-header">
-        <p class="section-label">Creative practice</p>
+        <p class="section-label">Film &amp; moving image</p>
         <button class="close-button" type="button" data-close autofocus>Close <span aria-hidden="true">×</span></button>
       </div>
       <div class="modal-content">
-        <h2 class="film-title" id="again-title">AGAIN</h2>
-        <p class="modal-lead">Mengxiao Xu · Co-creator</p>
-        <video class="project-video" controls playsinline preload="none" poster="again-poster.webp" aria-label="AGAIN, a collaborative film">
-          <source src="again-720p.mp4" type="video/mp4">
-          Your browser does not support embedded video. <a href="again-720p.mp4">Open the AGAIN film</a>.
+        <h2 class="film-title" id="abuji-title">ABUJI</h2>
+        <p class="modal-lead">Director &amp; Co-editor</p>
+        <video class="project-video" controls playsinline preload="none" poster="abuji-still.webp" aria-label="ABUJI selected excerpt">
+          <source src="abuji-excerpt.mp4" type="video/mp4">
+          Your browser does not support embedded video. <a href="abuji-excerpt.mp4">Open ABUJI selected excerpt</a>.
         </video>
-        <p>A collaborative moving-image work, presented here as part of my creative practice.</p>
+        <p class="video-caption">Selected excerpt</p>
         <div class="project-credit">
           <h3>Credit</h3>
-          <p>Mengxiao Xu — co-creator of the collaborative video work <em>AGAIN</em>.</p>
+          <p>Mengxiao Xu — director and co-editor with Zheng Li. Additional credits: graphics and sound.</p>
         </div>
+      </div>
+    </dialog>
+
+    <dialog class="modal modal-wide" id="escape-dialog" aria-labelledby="escape-title">
+      <div class="modal-header">
+        <p class="section-label">Film &amp; moving image</p>
+        <button class="close-button" type="button" data-close autofocus>Close <span aria-hidden="true">×</span></button>
+      </div>
+      <div class="modal-content">
+        <h2 class="film-title" id="escape-title">Escape From Cockatoo Island</h2>
+        <p class="modal-lead">Producer</p>
+        <video class="project-video" controls playsinline preload="none" poster="escape-still.webp" aria-label="Escape From Cockatoo Island selected excerpt">
+          <source src="escape-excerpt.mp4" type="video/mp4">
+          Your browser does not support embedded video. <a href="escape-excerpt.mp4">Open Escape From Cockatoo Island selected excerpt</a>.
+        </video>
+        <p class="video-caption">Selected excerpt</p>
         <div class="project-credit">
-          <h3>Recognition</h3>
-          <p>Second Prize, National Final, Faculty Category<br>Milan Design Week China Design Exhibition · 2023</p>
+          <h3>Credit</h3>
+          <p>Mengxiao Xu — Producer.</p>
         </div>
+      </div>
+    </dialog>
+
+    <dialog class="modal modal-wide" id="hotpot-sichuan-dialog" aria-labelledby="hotpot-sichuan-title">
+      <div class="modal-header">
+        <p class="section-label">Factual work</p>
+        <button class="close-button" type="button" data-close autofocus>Close <span aria-hidden="true">×</span></button>
+      </div>
+      <div class="modal-content">
+        <h2 class="film-title" id="hotpot-sichuan-title">Pot of Fire — Clay Hot Pot in Sichuan</h2>
+        <p class="modal-lead">Director’s assistant &amp; Editor</p>
+        <video class="project-video" controls playsinline preload="none" poster="hotpot-sichuan-still.webp" aria-label="Pot of Fire — Clay Hot Pot in Sichuan selected excerpt">
+          <source src="hotpot-sichuan-excerpt.mp4" type="video/mp4">
+          Your browser does not support embedded video. <a href="hotpot-sichuan-excerpt.mp4">Open Pot of Fire — Clay Hot Pot in Sichuan selected excerpt</a>.
+        </video>
+        <p class="video-caption">Selected excerpt</p>
+        <p class="title-note">Gaoxian, Sichuan.</p>
+        <div class="project-credit">
+          <h3>Credit</h3>
+          <p>Mengxiao Xu — Director’s assistant &amp; Editor.</p>
+        </div>
+        <p><a class="text-link" href="https://wetv.vip/en/play/9w0o6sdl7dj69s8" target="_blank" rel="noopener noreferrer">Pot of Fire · Official series page</a></p>
       </div>
     </dialog>
 
@@ -287,54 +325,6 @@
         <div class="project-credit">
           <h3>Supervision credit</h3>
           <p>Mengxiao Xu — co-supervising producer of the student graduation film <em>River Shows the Hidden Heart</em> (《绰绰水影》).</p>
-        </div>
-      </div>
-    </dialog>
-
-    <dialog class="modal modal-wide" id="growing-sun-dialog" aria-labelledby="growing-sun-title">
-      <div class="modal-header">
-        <p class="section-label">Student project &amp; supervision</p>
-        <button class="close-button" type="button" data-close autofocus>Close <span aria-hidden="true">×</span></button>
-      </div>
-      <div class="modal-content">
-        <h2 class="film-title" id="growing-sun-title">Growing Towards the Sun</h2>
-        <p class="modal-lead">Student project · Project adviser</p>
-        <video class="project-video" controls playsinline preload="none" poster="growing-sun-still.webp" aria-label="Growing Towards the Sun student film">
-          <source src="growing-sun.mp4" type="video/mp4">
-          Your browser does not support embedded video. <a href="growing-sun.mp4">Open the Growing Towards the Sun film</a>.
-        </video>
-        <p class="video-caption">Student film</p>
-        <div class="project-credit">
-          <h3>Supervision credit</h3>
-          <p>Mengxiao Xu — project adviser for <em>Growing Towards the Sun</em> (《向阳生长》).</p>
-        </div>
-        <div class="project-credit">
-          <h3>Recognition</h3>
-          <p>First Prize, National Final<br>Milan Design Week China Design Exhibition · 2023</p>
-        </div>
-      </div>
-    </dialog>
-
-    <dialog class="modal modal-wide" id="extraordinary-dialog" aria-labelledby="extraordinary-title">
-      <div class="modal-header">
-        <p class="section-label">Student project &amp; supervision</p>
-        <button class="close-button" type="button" data-close autofocus>Close <span aria-hidden="true">×</span></button>
-      </div>
-      <div class="modal-content">
-        <h2 class="film-title" id="extraordinary-title">Extraordinary</h2>
-        <p class="modal-lead">Student advertising project · Project adviser</p>
-        <video class="project-video" controls playsinline preload="none" poster="extraordinary-still.webp" aria-label="Extraordinary student advertising film">
-          <source src="extraordinary.mp4" type="video/mp4">
-          Your browser does not support embedded video. <a href="extraordinary.mp4">Open the Extraordinary film</a>.
-        </video>
-        <p class="video-caption">Student advertising film</p>
-        <div class="project-credit">
-          <h3>Supervision credit</h3>
-          <p>Mengxiao Xu — project adviser for <em>Extraordinary</em> (《非常人》).</p>
-        </div>
-        <div class="project-credit">
-          <h3>Recognition</h3>
-          <p>Third Prize, National Final<br>14th National Advertising Art Design Competition for College Students · 2022</p>
         </div>
       </div>
     </dialog>
